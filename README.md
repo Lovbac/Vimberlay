@@ -7,6 +7,8 @@ Vimberlay is a hybrid system that pairs an AutoHotkey v2 script with a Chromium 
 > [!NOTE]
 > This project is in **alpha**. Things work, but expect rough edges, undocumented config options, and the occasional desync. If the mode indicator gets stuck, press `Esc` or `Shift+Esc` to reset.
 
+![Vimberlay Screenshot](resources/VivaldiScreenshot.jpg)
+
 ---
 
 ## Features
