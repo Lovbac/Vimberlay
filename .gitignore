@@ -1,0 +1,24 @@
+# AutoHotkey
+*.exe
+*.bin
+*.ahk.bak
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+
+# Other
+temp/
+log/
+error_log.txt
+sync_log.txt
+web_log.txt
+TODO.txt

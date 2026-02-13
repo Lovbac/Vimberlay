@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 16px;
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .label {
+      margin-top: 16px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .label:first-child {
+      margin-top: 0;
+    }
+
+    .item {
+      margin-top: 4px;
+      font-size: 13px;
+    }
+
+    input[type="text"] {
+      width: calc(100% - 16px);
+      padding: 8px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 13px;
+      font-family: monospace;
+    }
+
+    #status {
+      display: none;
+    }
+
+    #status.active {
+      display: block;
+      padding: 8px;
+      margin-top: 8px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    #status.active.success {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    #status.active.error {
+      background: #ffebee;
+      color: #c62828;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Vimberlay Settings</h1>
+  <div class="label">
+    For this extension to do ANYTHING, you must install the main Vimberlay app:
+  </div>
+  <div class="item">
+    <a href="">https://link.to.vimberlay.example.com</a>
+  </div>
+  <div class="label">Server URL (press Enter to save)</div>
+  <div class="item">
+    <input type="text" id="server-url" placeholder="http://127.0.0.1:8000">
+  </div>
+  <div class="item" id="status"></div>
+  <div class="label">For other settings, see your UserConfig.ahk</div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

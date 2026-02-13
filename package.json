@@ -1,0 +1,13 @@
+{
+  "name": "vimberlay",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node build.js",
+    "build": "node build.js --prod",
+    "watch": "node watch.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  }
+}
